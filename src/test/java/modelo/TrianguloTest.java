@@ -7,7 +7,7 @@ public class TrianguloTest {
     public void CalcularareaTest() {
         triangulo triangulo = new triangulo (5, 10);
         double areaEsperada = (5 * 10) / 2;
-        assertEquals(areaEsperada, triangulo.calcularArea());)
+        assertEquals(areaEsperada, triangulo.calcularArea());
     }
     @Test
     public void CalcularPerimetroTest(){

@@ -17,7 +17,7 @@ public class CirculoTest {
     public void CalcularPerimetroTest() {
         circulo circulo = new circulo(0, 0, 5);
         double perimetroEsperado = 2 * Math.PI * 5;
-        assertEquals(perimetroEsperado, circulo.calcularPerimetro())
+        assertEquals(perimetroEsperado, circulo.calcularPerimetro());
     }
 
 }
